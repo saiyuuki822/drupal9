@@ -1,0 +1,4 @@
+name: My Node
+type: module
+description: 'This is my node module.'
+core_version_requirement: ^8.8 || ^9

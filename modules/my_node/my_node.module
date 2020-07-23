@@ -1,0 +1,5 @@
+<?php
+
+function my_node_preprocess_node(&$variables) {
+    var_dump("hello node");
+}
