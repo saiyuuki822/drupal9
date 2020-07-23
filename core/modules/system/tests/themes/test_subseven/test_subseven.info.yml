@@ -1,0 +1,10 @@
+name: 'Theme test subseven'
+type: theme
+description: 'Test theme which uses seven as the base theme.'
+# version: VERSION
+base theme: seven
+
+# Information added by Drupal.org packaging script on 2020-06-17
+version: '9.0.1'
+project: 'drupal'
+datestamp: 1592417762
