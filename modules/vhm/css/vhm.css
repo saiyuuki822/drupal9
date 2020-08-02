@@ -1,0 +1,12 @@
+#toolbar-item-administration-tray {
+  overflow: visible;
+}
+#toolbar-administration .toolbar-tray-vertical li.menu-item {
+  width: 100%;
+}
+#toolbar-administration .toolbar-tray-vertical .toolbar li.level-3 ul.toolbar-menu,
+#toolbar-administration .toolbar-tray-vertical .toolbar li.level-4 ul.toolbar-menu,
+#toolbar-administration .toolbar-tray-vertical .toolbar li.level-5 ul.toolbar-menu,
+#toolbar-administration .toolbar-tray-vertical .toolbar li.level-6 ul.toolbar-menu {
+  margin-left: auto !important;
+}

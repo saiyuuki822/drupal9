@@ -1,0 +1,11 @@
+vhm:
+  css:
+    theme:
+      css/vhm.css: {}
+  js:
+    js/vhm.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings

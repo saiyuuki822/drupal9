@@ -1,0 +1,14 @@
+{
+  "name": "drupal/vhm",
+  "type": "drupal-module",
+  "description": "Adds a hover effect when the menu is in vertical orientation",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/vhm",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/vhm",
+    "source": "http://cgit.drupalcode.org/vhm"
+  },
+  "require": { }
+}

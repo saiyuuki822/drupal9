@@ -1,0 +1,12 @@
+name: vhm
+type: module
+description: 'Adds hover effects to the menu on vertical orientation.'
+core_version_requirement: ^8.8 || ^9
+# core: 8.x
+package: Administration
+dependencies:
+  - admin_toolbar:admin_toolbar
+
+# Information added by Drupal.org packaging script on 2019-04-08
+project: 'vhm'
+datestamp: 1554733392

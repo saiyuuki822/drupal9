@@ -1,0 +1,43 @@
+<?php
+
+/**
+ * @file
+ * Contains vhm.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function vhm_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the vhm module.
+    case 'help.page.vhm':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Vertical Hover Menu Customizations') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function vhm_theme() {
+  return [
+    'vhm' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function vhm_page_attachments_alter(array &$attachments) {
+  $a = $attachments;
+  $attachments['#attached']['library'][] = 'vhm/vhm';
+}
